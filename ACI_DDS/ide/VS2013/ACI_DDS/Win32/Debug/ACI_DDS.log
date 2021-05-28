@@ -1,0 +1,104 @@
+﻿生成启动时间为 3/24/2021 12:04:24 PM。
+     1>项目“F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\ACI_DDS\ACI_DDS.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\source\BuiltinDataReader.c ..\..\..\source\BuiltinDataWriter.c ..\..\..\source\BuiltinEndpointSet_t.c ..\..\..\source\CommLog.c ..\..\..\source\ConfFile.c ..\..\..\source\DataReader.c ..\..\..\source\DataWriter.c ..\..\..\source\DiscoveredParticipant.c ..\..\..\source\DiscoveredReader.c ..\..\..\source\DiscoveredWriter.c ..\..\..\source\DomainParticipant.c ..\..\..\source\Duration_t.c ..\..\..\source\FragmentNumber.c ..\..\..\source\GenGuid.c ..\..\..\source\GUID_t.c ..\..\..\source\HistoryCache.c ..\..\..\source\MajorTask.c ..\..\..\source\MemoryAlloc.c ..\..\..\source\Monitor.c ..\..\..\source\NetWorkOrder.c ..\..\..\source\NetWorkStructure.c ..\..\..\source\NetWorkUnity.c ..\..\..\source\ParameterList.c ..\..\..\source\ProcessUnity.c ..\..\..\source\PropertyList.c ..\..\..\source\ProtocolVersion_t.c ..\..\..\source\QosService.c ..\..\..\source\RioUtility.c ..\..\..\source\RTPSDiscovery.c ..\..\..\source\RTPSMessageHeader.c ..\..\..\source\RTPSReceiveStrategy.c ..\..\..\source\Sedp.c ..\..\..\source\SequenceNumber_t.c ..\..\..\source\Spdp.c ..\..\..\source\StringUnity.c ..\..\..\source\Topic.c ..\..\..\source\TypeAbstraction_TS.c ..\..\..\source\User.c ..\..\..\source\VendorId_t.c
+         VendorId_t.c
+         User.c
+         TypeAbstraction_TS.c
+         Topic.c
+         StringUnity.c
+         Spdp.c
+         SequenceNumber_t.c
+         Sedp.c
+         RTPSReceiveStrategy.c
+         RTPSMessageHeader.c
+         RTPSDiscovery.c
+         RioUtility.c
+         QosService.c
+         ProtocolVersion_t.c
+         PropertyList.c
+         ProcessUnity.c
+         ParameterList.c
+         NetWorkUnity.c
+         NetWorkStructure.c
+     1>f:\testrepository\aci_dds\aci_dds\source\networkstructure.c(183): warning C4013: “FuzzyMatch”未定义；假设外部返回 int
+         NetWorkOrder.c
+         正在生成代码...
+     1>f:\testrepository\aci_dds\aci_dds\source\networkstructure.c(193): warning C4715: “getNetMask”: 不是所有的控件路径都返回值
+         正在编译...
+         Monitor.c
+         MemoryAlloc.c
+     1>f:\testrepository\aci_dds\aci_dds\source\memoryalloc.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\testrepository\aci_dds\aci_dds\source\memoryalloc.c(801): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         MajorTask.c
+         HistoryCache.c
+         GUID_t.c
+         GenGuid.c
+         FragmentNumber.c
+         Duration_t.c
+         DomainParticipant.c
+     1>f:\testrepository\aci_dds\aci_dds\source\domainparticipant.c(1609): warning C4101: “uiNum”: 未引用的局部变量
+         DiscoveredWriter.c
+         DiscoveredReader.c
+         DiscoveredParticipant.c
+         DataWriter.c
+     1>f:\testrepository\aci_dds\aci_dds\source\datawriter.c(539): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\testrepository\aci_dds\aci_dds\source\datawriter.c(660): warning C4101: “stParamHead”: 未引用的局部变量
+     1>f:\testrepository\aci_dds\aci_dds\source\datawriter.c(657): warning C4101: “stMemBlockMod”: 未引用的局部变量
+         DataReader.c
+     1>f:\testrepository\aci_dds\aci_dds\source\datareader.c(251): warning C4018: “<=”: 有符号/无符号不匹配
+     1>f:\testrepository\aci_dds\aci_dds\source\datareader.c(360): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\testrepository\aci_dds\aci_dds\source\datareader.c(633): warning C4018: “>”: 有符号/无符号不匹配
+         ConfFile.c
+         CommLog.c
+         BuiltinEndpointSet_t.c
+         BuiltinDataWriter.c
+         BuiltinDataReader.c
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\..\..\bin\VS2013\Win32\Debug\ACI_DDS.dll" /INCREMENTAL /NOLOGO iphlpapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\..\..\bin\VS2013\Win32\Debug\ACI_DDS.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\..\..\bin\VS2013\Win32\Debug\ACI_DDS.lib" /MACHINE:X86 /DLL Win32\Debug\BuiltinDataReader.obj
+         Win32\Debug\BuiltinDataWriter.obj
+         Win32\Debug\BuiltinEndpointSet_t.obj
+         Win32\Debug\CommLog.obj
+         Win32\Debug\ConfFile.obj
+         Win32\Debug\DataReader.obj
+         Win32\Debug\DataWriter.obj
+         Win32\Debug\DiscoveredParticipant.obj
+         Win32\Debug\DiscoveredReader.obj
+         Win32\Debug\DiscoveredWriter.obj
+         Win32\Debug\DomainParticipant.obj
+         Win32\Debug\Duration_t.obj
+         Win32\Debug\FragmentNumber.obj
+         Win32\Debug\GenGuid.obj
+         Win32\Debug\GUID_t.obj
+         Win32\Debug\HistoryCache.obj
+         Win32\Debug\MajorTask.obj
+         Win32\Debug\MemoryAlloc.obj
+         Win32\Debug\Monitor.obj
+         Win32\Debug\NetWorkOrder.obj
+         Win32\Debug\NetWorkStructure.obj
+         Win32\Debug\NetWorkUnity.obj
+         Win32\Debug\ParameterList.obj
+         Win32\Debug\ProcessUnity.obj
+         Win32\Debug\PropertyList.obj
+         Win32\Debug\ProtocolVersion_t.obj
+         Win32\Debug\QosService.obj
+         Win32\Debug\RioUtility.obj
+         Win32\Debug\RTPSDiscovery.obj
+         Win32\Debug\RTPSMessageHeader.obj
+         Win32\Debug\RTPSReceiveStrategy.obj
+         Win32\Debug\Sedp.obj
+         Win32\Debug\SequenceNumber_t.obj
+         Win32\Debug\Spdp.obj
+         Win32\Debug\StringUnity.obj
+         Win32\Debug\Topic.obj
+         Win32\Debug\TypeAbstraction_TS.obj
+         Win32\Debug\User.obj
+         Win32\Debug\VendorId_t.obj
+            正在创建库 F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\..\..\bin\VS2013\Win32\Debug\ACI_DDS.lib 和对象 F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\..\..\bin\VS2013\Win32\Debug\ACI_DDS.exp
+         ACI_DDS.vcxproj -> F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\..\..\bin\VS2013\Win32\Debug\ACI_DDS.dll
+     1>已完成生成项目“F:\TestRepository\ACI_DDS\ACI_DDS\ide\VS2013\ACI_DDS\ACI_DDS.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.90

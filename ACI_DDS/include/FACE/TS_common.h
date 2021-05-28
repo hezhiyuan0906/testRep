@@ -1,0 +1,127 @@
+// DISTRIBUTION STATEMENT A. Approved for public release; distribution is unlimited. 
+// 
+// Product produced under DoD SENSIAC contract HC104705D4000 under
+// the sponsorship of the Defense Technical Information Center,
+// ATTN: DTIC-AI, 8723 John J. Kingman Rd., Ste 0944, Fort Belvoir, VA
+// 22060-6218.  SENSIAC is a DoD Information Analysis Center Sponsored
+// by the Defense Technical Information Center.
+// 
+// HANDLING AND DESTRUCTION NOTICE - Comply with distribution statement
+// and destroy by any method that will prevent disclosure of
+// contents or reconstruction of the document.
+
+#ifndef _FACE_TS_COMMON_H_
+#define _FACE_TS_COMMON_H_
+
+#include "common.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif /* __cplusplus */
+
+typedef FACE_char FACE_CONNECTION_NAME_TYPE[64];
+
+typedef FACE_long FACE_MESSAGE_SIZE_TYPE;
+
+typedef FACE_long_long FACE_MESSAGE_TYPE_GUID;
+
+typedef enum
+{
+  FACE_SOURCE,
+  FACE_DESTINATION,
+  FACE_BI_DIRECTIONAL,
+  FACE_ONE_WAY_REQUEST_SOURCE,
+  FACE_ONE_WAY_REQUEST_DESTINATION,
+  FACE_TWO_WAY_REQUEST_SYNCHRONOUS_SOURCE,
+  FACE_TWO_WAY_REQUEST_SYNCHRONOUS_DESTINATION,
+  FACE_TWO_WAY_REQUEST_REPLY_ASYNCHRONOUS_SOURCE,
+  FACE_TWO_WAY_REQUEST_REPLY_ASYNCHRONOUS_DESTINATION,
+  FACE_NOT_DEFINED_CONNECTION_DIRECTION_TYPE
+}   FACE_CONNECTION_DIRECTION_TYPE;
+
+typedef FACE_long_long FACE_CONNECTION_ID_TYPE;
+
+typedef FACE_long_long FACE_TRANSACTION_ID_TYPE;
+
+typedef enum
+{
+  FACE_SAMPLING_PORT,
+  FACE_QUEUING_PORT,
+  FACE_SOCKET,
+  FACE_MQ,
+  FACE_SHM,
+  FACE_CORBA,
+  FACE_DDS
+}   FACE_CONNECTION_TYPE;
+
+typedef FACE_boolean FACE_WAITSET_TYPE[32];
+
+typedef enum
+{
+  FACE_FIFO,
+  FACE_PRIORITY,
+  FACE_NOT_DEFINED_QUEUING_DISCIPLINE_TYPE
+}   FACE_QUEUING_DISCIPLINE_TYPE;
+
+typedef enum
+{
+  FACE_UNIX,
+  FACE_INET,
+  FACE_NOT_DEFINED_CONNECTION_DOMAIN_TYPE
+}   FACE_CONNECTION_DOMAIN_TYPE;
+
+typedef enum
+{
+  FACE_STREAM,
+  FACE_DGRAM,
+  FACE_SEQPACKET,
+  FACE_NOT_DEFINED_SOCKET_TYPE
+}   FACE_SOCKET_TYPE;
+
+typedef enum
+{
+  FACE_PEEK,
+  FACE_OOB_RECEIVE_FLAG_TYPE,
+  FACE_WAITALL,
+  FACE_NOT_DEFINED_RECEIVE_FLAG_TYPE
+}   FACE_RECEIVE_FLAG_TYPE;
+
+typedef enum
+{
+  FACE_EOR,
+  FACE_OOB_SEND_FLAG_TYPE,
+  FACE_NOSIGNAL,
+  FACE_NOT_DEFINED_SEND_FLAG_TYPE
+}   FACE_SEND_FLAG_TYPE;
+
+typedef enum
+{
+  FACE_INVALID,
+  FACE_VALID
+}   FACE_VALIDITY_TYPE;
+
+typedef enum
+{
+  FACE_PUB_SUB,
+  FACE_CLIENT,
+  FACE_SERVER
+}   FACE_MESSAGING_PATTERN_TYPE;
+
+typedef FACE_long FACE_WAITING_RANGE_TYPE;
+
+typedef struct {
+  FACE_MESSAGE_RANGE_TYPE MESSAGE;
+  FACE_MESSAGE_RANGE_TYPE MAX_MESSAGE;
+  FACE_MESSAGE_SIZE_TYPE MAX_MESSAGE_SIZE;
+  FACE_CONNECTION_DIRECTION_TYPE CONNECTION_DIRECTION;
+  FACE_WAITING_RANGE_TYPE WAITING_PROCESSES_OR_MESSAGES;
+  FACE_SYSTEM_TIME_TYPE REFRESH_PERIOD;
+  FACE_VALIDITY_TYPE LAST_MSG_VALIDITY;
+}   FACE_TRANSPORT_CONNECTION_STATUS_TYPE;
+
+#ifdef __cplusplus
+}
+#endif /* __cplusplus */
+
+
+#endif /* #ifndef */

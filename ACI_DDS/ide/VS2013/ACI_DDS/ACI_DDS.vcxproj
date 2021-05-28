@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\BuiltinDataReader.c" />
+    <ClCompile Include="..\..\..\source\BuiltinDataWriter.c" />
+    <ClCompile Include="..\..\..\source\BuiltinEndpointSet_t.c" />
+    <ClCompile Include="..\..\..\source\CommLog.c" />
+    <ClCompile Include="..\..\..\source\ConfFile.c" />
+    <ClCompile Include="..\..\..\source\DataReader.c" />
+    <ClCompile Include="..\..\..\source\DataWriter.c" />
+    <ClCompile Include="..\..\..\source\DiscoveredParticipant.c" />
+    <ClCompile Include="..\..\..\source\DiscoveredReader.c" />
+    <ClCompile Include="..\..\..\source\DiscoveredWriter.c" />
+    <ClCompile Include="..\..\..\source\DomainParticipant.c" />
+    <ClCompile Include="..\..\..\source\Duration_t.c" />
+    <ClCompile Include="..\..\..\source\FragmentNumber.c" />
+    <ClCompile Include="..\..\..\source\GenGuid.c" />
+    <ClCompile Include="..\..\..\source\GUID_t.c" />
+    <ClCompile Include="..\..\..\source\HistoryCache.c" />
+    <ClCompile Include="..\..\..\source\MajorTask.c" />
+    <ClCompile Include="..\..\..\source\MemoryAlloc.c" />
+    <ClCompile Include="..\..\..\source\Monitor.c" />
+    <ClCompile Include="..\..\..\source\NetWorkOrder.c" />
+    <ClCompile Include="..\..\..\source\NetWorkStructure.c" />
+    <ClCompile Include="..\..\..\source\NetWorkUnity.c" />
+    <ClCompile Include="..\..\..\source\ParameterList.c" />
+    <ClCompile Include="..\..\..\source\ProcessUnity.c" />
+    <ClCompile Include="..\..\..\source\PropertyList.c" />
+    <ClCompile Include="..\..\..\source\ProtocolVersion_t.c" />
+    <ClCompile Include="..\..\..\source\QosService.c" />
+    <ClCompile Include="..\..\..\source\RioUtility.c" />
+    <ClCompile Include="..\..\..\source\RTPSDiscovery.c" />
+    <ClCompile Include="..\..\..\source\RTPSMessageHeader.c" />
+    <ClCompile Include="..\..\..\source\RTPSReceiveStrategy.c" />
+    <ClCompile Include="..\..\..\source\Sedp.c" />
+    <ClCompile Include="..\..\..\source\SequenceNumber_t.c" />
+    <ClCompile Include="..\..\..\source\Spdp.c" />
+    <ClCompile Include="..\..\..\source\StringUnity.c" />
+    <ClCompile Include="..\..\..\source\Topic.c" />
+    <ClCompile Include="..\..\..\source\TypeAbstraction_TS.c" />
+    <ClCompile Include="..\..\..\source\User.c" />
+    <ClCompile Include="..\..\..\source\VendorId_t.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\AckNack.h" />
+    <ClInclude Include="..\..\..\include\BoundedString.h" />
+    <ClInclude Include="..\..\..\include\BuiltinDataReader.h" />
+    <ClInclude Include="..\..\..\include\BuiltinDataWriter.h" />
+    <ClInclude Include="..\..\..\include\BuiltinEndpointSet_t.h" />
+    <ClInclude Include="..\..\..\include\BuiltinTopicKey_t.h" />
+    <ClInclude Include="..\..\..\include\CDRTool.h" />
+    <ClInclude Include="..\..\..\include\CommLog.h" />
+    <ClInclude Include="..\..\..\include\CommonTypeDefine.h" />
+    <ClInclude Include="..\..\..\include\ConfFile.h" />
+    <ClInclude Include="..\..\..\include\Data.h" />
+    <ClInclude Include="..\..\..\include\DataFrag.h" />
+    <ClInclude Include="..\..\..\include\DataReader.h" />
+    <ClInclude Include="..\..\..\include\DataWriter.h" />
+    <ClInclude Include="..\..\..\include\DiscoveredParticipant.h" />
+    <ClInclude Include="..\..\..\include\DiscoveredReader.h" />
+    <ClInclude Include="..\..\..\include\DiscoveredWriter.h" />
+    <ClInclude Include="..\..\..\include\DomainParticipant.h" />
+    <ClInclude Include="..\..\..\include\Duration_t.h" />
+    <ClInclude Include="..\..\..\include\FragmentNumber.h" />
+    <ClInclude Include="..\..\..\include\FragmentNumberSet.h" />
+    <ClInclude Include="..\..\..\include\Gap.h" />
+    <ClInclude Include="..\..\..\include\GlobalDefine.h" />
+    <ClInclude Include="..\..\..\include\GuidGen.h" />
+    <ClInclude Include="..\..\..\include\GuidSeq.h" />
+    <ClInclude Include="..\..\..\include\GUID_t.h" />
+    <ClInclude Include="..\..\..\include\Heartbeat.h" />
+    <ClInclude Include="..\..\..\include\HistoryCache.h" />
+    <ClInclude Include="..\..\..\include\InfoDestination.h" />
+    <ClInclude Include="..\..\..\include\InfoReply.h" />
+    <ClInclude Include="..\..\..\include\InfoTimestamp.h" />
+    <ClInclude Include="..\..\..\include\ListOper.h" />
+    <ClInclude Include="..\..\..\include\Locator_t.h" />
+    <ClInclude Include="..\..\..\include\MajorTask.h" />
+    <ClInclude Include="..\..\..\include\MemoryAlloc.h" />
+    <ClInclude Include="..\..\..\include\MemoryBlock.h" />
+    <ClInclude Include="..\..\..\include\Monitor.h" />
+    <ClInclude Include="..\..\..\include\NackFrag.h" />
+    <ClInclude Include="..\..\..\include\NetWorkOrder.h" />
+    <ClInclude Include="..\..\..\include\NetWorkStructure.h" />
+    <ClInclude Include="..\..\..\include\NetWorkUnity.h" />
+    <ClInclude Include="..\..\..\include\ParameterList.h" />
+    <ClInclude Include="..\..\..\include\ParticipantData.h" />
+    <ClInclude Include="..\..\..\include\ParticipantProxy.h" />
+    <ClInclude Include="..\..\..\include\ProcessUnity.h" />
+    <ClInclude Include="..\..\..\include\PropertyList.h" />
+    <ClInclude Include="..\..\..\include\ProtocolVersion_t.h" />
+    <ClInclude Include="..\..\..\include\QosPolicy.h" />
+    <ClInclude Include="..\..\..\include\QosService.h" />
+    <ClInclude Include="..\..\..\include\ReturnCode.h" />
+    <ClInclude Include="..\..\..\include\RTPSDiscovery.h" />
+    <ClInclude Include="..\..\..\include\RTPSFragInfo.h" />
+    <ClInclude Include="..\..\..\include\RTPSMessageHeader.h" />
+    <ClInclude Include="..\..\..\include\RTPSReceiveStrategy.h" />
+    <ClInclude Include="..\..\..\include\Sedp.h" />
+    <ClInclude Include="..\..\..\include\SequenceNumberSet.h" />
+    <ClInclude Include="..\..\..\include\SequenceNumber_t.h" />
+    <ClInclude Include="..\..\..\include\SerializedData.h" />
+    <ClInclude Include="..\..\..\include\Spdp.h" />
+    <ClInclude Include="..\..\..\include\StringUnity.h" />
+    <ClInclude Include="..\..\..\include\SubMessageHeader.h" />
+    <ClInclude Include="..\..\..\include\TimeTool.h" />
+    <ClInclude Include="..\..\..\include\Topic.h" />
+    <ClInclude Include="..\..\..\include\User.h" />
+    <ClInclude Include="..\..\..\include\UserDataQosPolicy.h" />
+    <ClInclude Include="..\..\..\include\VendorId_t.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A3731A8-4989-4740-B26C-344318F77881}</ProjectGuid>
+    <RootNamespace>ACI_DDS</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)..\..\..\bin\VS2013\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)..\..\..\bin\VS2013\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\..\bin\VS2013\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\..\bin\VS2013\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
